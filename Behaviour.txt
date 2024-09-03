@@ -4,7 +4,7 @@ Behaviour :
 > User authenticated, no password stored
 > User profile created in django-admin interface (no password stored)
 
--- user account deleted
+-- user account deleted from Active Directory server
 > User no longer authenticated
 > User profile remains stored on django-admin interface
 > User profile can be found under user_auth table in django db
