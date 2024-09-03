@@ -11,7 +11,7 @@ Behaviour :
 > If you re-create the same account on AD, user is authenticated again (no duplicates)
 
 !!! redundancy to avoid !!!
---staff account with user creation privileges sets a password for a user profile 
+--if a staff account with user creation privileges sets a password for a user profile 
 > user can log in with 2 passwords (AD password and password set by staff account)
 > if AD account is removed, user can log in with password set by staff account
 > Password is stored in django db
