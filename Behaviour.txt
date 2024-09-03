@@ -8,7 +8,7 @@ Behaviour :
 > User no longer authenticated
 > User profile remains stored on django-admin interface
 > User profile can be found under user_auth table in django db
-> If you re-create the same account on AD user is authenticated again (no duplicates)
+> If you re-create the same account on AD, user is authenticated again (no duplicates)
 
 !!! redundancy to avoid !!!
 --staff account with user creation privileges sets a password for a user profile 
