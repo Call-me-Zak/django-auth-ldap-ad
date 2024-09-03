@@ -1,6 +1,6 @@
 Behaviour :
 
--- user account exits on Active Directory server
+-- user account exists on Active Directory server
 > User authenticated, no password stored
 > User profile created in django-admin interface (no password stored)
 
